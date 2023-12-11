@@ -25,11 +25,12 @@ Run the ginc dataset generation program with n_hmms = 20000 and n_samples = 32
      ginc_dataset_root = "../ginc-output-repro/data/"
      val_file = '../ginc-output-repro/val/GINC_trans0.1_start10.0_nsymbols13_nvalues12_nslots11_nsamples32_nhmms20000_seed1111/train.json'
 4. Run the code $python ginc_train_eval.py
-5. 
+5. The results file will be generated in the specified output folder. The result file contain information about diversity coefficient and eval data loss
 
 
 
 References:
 [1] https://github.com/p-lambda/incontext-learning
+
 [2] https://github.com/alycialee/beyond-scale-language-data-diversity
 
